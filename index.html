@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kakao-Disney</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span>Disney Service</span>
+				<i class="fas fa-wifi"></i>
+			</div>
+			<div class="status-bar__column">
+				<span>22:15</span>
+			</div>
+			<div class="status-bar__column">
+				<span>50%</span>
+				<i class="fas fa-battery-half"></i>
+				<i class="fas fa-bolt"></i>
+			</div>
+		</div>
+		<div id="login-background"></div>
+
+		<header class="header">
+			<h1 class="header__title">Welcome to Disney Talk!</h1>
+			<p class="header__text">
+				If you have an Account, log in with your email or phone number.
+			</p>
+		</header>
+
+		<form class="login-form">
+			<input type="text" placeholder="ID" />
+			<input type="password" required placeholder="Password" minlength="10" />
+			<input type="submit" value="Log in" />
+
+			<a href="#" class="find">Find your Account or Password</a>
+		</form>
+
+		<script
+			src="https://kit.fontawesome.com/7061e94a18.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
