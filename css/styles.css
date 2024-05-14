@@ -9,6 +9,8 @@
 @import './screens/login.css';
 
 body {
+  height: 1100vh;
+  overflow-x: hidden;
   font-family: 'Mouse Memoirs', sans-serif;
 }
 a {
