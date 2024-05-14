@@ -1,20 +1,24 @@
 .friends-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: var(--main-space);
 }
 
 .friends-header__title {
-  color: #003366;
-  font-size: 2.2rem;
+	color: #003366;
+	font-size: 2.2rem;
 }
 
 .friends-header__icon span {
-  margin-right: 15px;
-  color: #003366;
+	margin-right: 15px;
+	color: #003366;
 }
 
 .friends-header__icon span:last-child {
-  margin-right: 0;
+	margin-right: 0;
+}
+
+.friends-screen {
+	padding: 0 var(--main-space);
 }

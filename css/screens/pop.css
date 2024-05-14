@@ -1,0 +1,15 @@
+.make-pop {
+	margin-top: 20px;
+	border-top: var(--main-border);
+}
+
+.make-pop__column {
+	display: flex;
+	justify-content: space-between;
+}
+
+.make-pop__column__title,
+.make-pop__column span {
+	margin-top: 10px;
+	color: rgba(0, 0, 0, 0.7);
+}
