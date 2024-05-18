@@ -41,3 +41,58 @@
 .channel-space__second__column i {
 	margin-left: 3px;
 }
+
+.channel-advertisement {
+	overflow-x: auto;
+	display: flex;
+}
+
+.channel-advertisement__container {
+	width: 120px;
+	height: 150px;
+	display: flex;
+	flex: 0 0 auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(176, 224, 230, 0.7);
+	margin-top: 20px;
+	padding: 0 5px;
+	margin-right: 5px;
+	border-radius: 10px;
+}
+
+.channel-advertisement__container__item {
+	text-align: center;
+}
+
+.channel-advertisement__container__item img {
+	width: 35px;
+	height: 35px;
+	border-radius: 40%;
+	margin-bottom: 5px;
+}
+
+.channel-advertisement__container__item__title {
+	font-size: 1.2em;
+	color: var(--main-color);
+}
+.channel-advertisement__container__item__text {
+	font-size: 0.9em;
+	margin-bottom: 5px;
+}
+
+.channel-advertisement input {
+	border-radius: 10px;
+	border: var(--main-border);
+	background-color: transparent;
+	font-family: "Mouse Memoirs";
+	color: rgba(0, 0, 0, 0.7);
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.channel-advertisement input:hover {
+	color: white;
+	background-color: pink;
+}

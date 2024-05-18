@@ -18,7 +18,8 @@
 body {
 	overflow-x: hidden;
 	font-family: "Mouse Memoirs", sans-serif;
-	height: 1100vh;
+	height: auto;
+	box-sizing: border-box;
 }
 a {
 	text-decoration: none;

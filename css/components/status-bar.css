@@ -1,46 +1,46 @@
 .status-bar {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.2em;
-  padding: 5px 3px;
-  position: sticky;
-  top: 0;
-  box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #003366;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.2em;
+	padding: 5px 3px;
+	position: sticky;
+	top: 0;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.8);
+	color: #003366;
 }
 
 .status-bar__column {
-  width: 33%;
+	width: 33%;
 }
 
 .status-bar__column:first-child span {
-  margin-right: 5px;
+	margin-right: 5px;
 }
 
 .status-bar__column:nth-child(2) {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .status-bar__column:last-child {
-  display: flex;
-  justify-content: flex-end;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .status-bar__column .fa-battery-half {
-  margin: 0 4px;
+	margin: 0 4px;
 }
 
 .header {
-  text-align: center;
-  margin: 150px 0 200px 0;
-  font-size: 1.4em;
-  color: #ffffff;
-  text-shadow: 2px 2px 4px #000000;
+	text-align: center;
+	margin: 150px 0 200px 0;
+	font-size: 1.4em;
+	color: #ffffff;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 .header__title {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
