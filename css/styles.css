@@ -11,6 +11,7 @@
 @import './screens/login.css';
 @import './screens/friends-header.css';
 @import './screens/pop.css';
+@import './screens/birthday.css';
 
 body {
   overflow-x: hidden;

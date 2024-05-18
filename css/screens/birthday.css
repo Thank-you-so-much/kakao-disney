@@ -1,0 +1,13 @@
+.birthday-space {
+  display: flex;
+  flex-direction: column;
+}
+
+.birthday-space__column {
+  display: flex;
+}
+
+.birthday-space__second__column {
+  display: flex;
+  justify-content: space-between;
+}
