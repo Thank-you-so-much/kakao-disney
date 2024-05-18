@@ -1,0 +1,27 @@
+.favorites-space {
+	margin-top: 20px;
+	border-top: var(--main-border);
+}
+
+.favorites-space__column {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.favorites-space__column:first-child {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	color: var(--main-color);
+	font-size: 1.2em;
+}
+
+.favorites-space__column__text {
+	color: var(--main-color);
+	font-size: 1.3em;
+}
+
+.favorites-space__column__subtext {
+	color: rgba(0, 0, 0, 0.7);
+}
