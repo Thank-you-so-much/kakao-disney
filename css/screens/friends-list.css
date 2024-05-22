@@ -28,3 +28,29 @@
 .friends-list-space__column__description {
 	color: var(--main-color);
 }
+
+.profile-music {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	border: 1px solid tomato;
+	padding: 4px 5px;
+	border-radius: 20px;
+}
+
+.profile-music__name,
+.profile-music__singer {
+	font-size: 0.9em;
+	color: var(--main-color);
+}
+
+.profile-music__singer {
+	margin-left: 2px;
+}
+
+.profile-music i {
+	display: block;
+	align-items: center;
+	font-size: 0.3em;
+	margin-left: 4px;
+}

@@ -1,28 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Open+Sans:wght@400;600;700&display=swap');
-@import '/css/reset.css';
-@import '/css/variable.css';
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Open+Sans:wght@400;600;700&display=swap");
+@import "/css/reset.css";
+@import "/css/variable.css";
 
 /*Components*/
-@import './components/status-bar.css';
-@import './components/nav-bar.css';
-@import './components/user-components.css';
+@import "./components/status-bar.css";
+@import "./components/nav-bar.css";
+@import "./components/user-components.css";
 
 /*Screens*/
-@import './screens/login.css';
-@import './screens/friends-header.css';
-@import './screens/pop.css';
-@import './screens/birthday.css';
-@import './screens/favorites.css';
-@import './screens/channel.css';
-@import './screens/friends-list.css';
+@import "./screens/login.css";
+@import "./screens/friends-header.css";
+@import "./screens/pop.css";
+@import "./screens/birthday.css";
+@import "./screens/favorites.css";
+@import "./screens/channel.css";
+@import "./screens/friends-list.css";
 
 body {
-  overflow-x: hidden;
-  font-family: 'Mouse Memoirs', sans-serif;
-  height: auto;
-  box-sizing: border-box;
+	overflow-x: hidden;
+	font-family: "Mouse Memoirs", sans-serif;
+	height: auto;
+	box-sizing: border-box;
 }
 a {
-  text-decoration: none;
-  color: inherit;
+	text-decoration: none;
+	color: inherit;
+}
+
+.arrow {
+	font-size: 0.7em;
+	color: var(--main-color);
 }
