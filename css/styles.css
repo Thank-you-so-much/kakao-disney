@@ -6,6 +6,7 @@
 @import "./components/status-bar.css";
 @import "./components/nav-bar.css";
 @import "./components/user-components.css";
+@import "./components/advertisement.css";
 
 /*Screens*/
 @import "./screens/login.css";
@@ -15,6 +16,7 @@
 @import "./screens/favorites.css";
 @import "./screens/channel.css";
 @import "./screens/friends-list.css";
+@import "./screens/chats-screen.css";
 
 body {
 	overflow-x: hidden;
@@ -28,6 +30,6 @@ a {
 }
 
 .arrow {
-	font-size: 0.7em;
+	font-size: 0.6em;
 	color: var(--main-color);
 }

@@ -1,0 +1,30 @@
+.chats-screen {
+	padding: var(--main-space);
+}
+
+.chats-list__info__name {
+	font-size: 1.5em;
+}
+
+.chats-list__column {
+	display: flex;
+	align-items: center;
+}
+
+.chats-list__info__container {
+	display: flex;
+	align-items: center;
+}
+
+.chats-list__info i {
+	font-size: 0.7em;
+	color: rgba(0, 0, 0, 0.5);
+	margin-left: 5px;
+}
+
+.chats-list__info__text {
+	max-width: 260px;
+	font-size: 0.9em;
+	color: rgba(0, 0, 0, 0.5);
+	overflow-wrap: break-word;
+}
