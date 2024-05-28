@@ -6,6 +6,10 @@
   display: flex;
   margin-bottom: 20px;
 }
+.chat-container img {
+  object-fit: cover;
+  object-position: center;
+}
 
 .chat-container__column {
   display: flex;
