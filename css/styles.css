@@ -8,6 +8,7 @@
 @import './components/user-components.css';
 @import './components/advertisement.css';
 @import './components/badge.css';
+@import './components/chats-components.css';
 
 /*Screens*/
 @import './screens/login.css';
@@ -17,7 +18,6 @@
 @import './screens/favorites.css';
 @import './screens/channel.css';
 @import './screens/friends-list.css';
-@import './screens/chats-screen.css';
 @import './screens/open-chats.css';
 
 body {
@@ -34,4 +34,14 @@ a {
 .arrow {
   font-size: 0.6em;
   color: var(--main-color);
+}
+
+.advertisement-img {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 20px;
+  object-position: 30% 32%;
+  display: block;
+  border-radius: 10px;
+  cursor: pointer;
 }

@@ -37,6 +37,12 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
+.chat-container__number {
+  font-size: 1.3em;
+  margin: 0 3px;
+  color: var(--main-lightgray);
+}
+
 .chat-container__info i {
   margin-left: 4px;
   font-size: 0.8em;

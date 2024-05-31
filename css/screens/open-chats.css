@@ -69,3 +69,69 @@
     transform: translateY(-10px);
   }
 }
+
+.advertisement-area {
+  margin-top: 20px;
+}
+
+#boundary {
+  margin: 0 -20px;
+  border-top: 11px solid var(--main-color);
+  opacity: 0.5;
+}
+
+.suggestion-chat {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.suggestion-chat__column:first-child {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.suggestion-space {
+  margin-top: 20px;
+}
+
+.suggestion-space__title {
+  font-size: 1.5em;
+  color: var(--main-color);
+}
+
+.suggestion__description h4 {
+  font-size: 1.3em;
+  color: var(--main-color);
+}
+
+.suggestion__description p {
+  font-size: 1.1em;
+  color: var(--main-lightgray);
+}
+
+.suggestion__description span {
+  color: rgba(0, 0, 0, 0.7);
+  margin-right: 5px;
+}
+
+.suggestion__description span:last-child {
+  color: tomato;
+  font-size: 0.85em;
+}
+
+.suggestion-chat__column input[type='submit'] {
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  background-color: var(--main-color);
+  color: white;
+  font-family: 'Mouse Memoirs';
+}
+
+.suggestion-chat__column input[type='submit']:hover {
+  background-color: pink;
+}
