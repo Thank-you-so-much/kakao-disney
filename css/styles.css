@@ -18,6 +18,7 @@
 @import './screens/channel.css';
 @import './screens/friends-list.css';
 @import './screens/chats-screen.css';
+@import './screens/open-chats.css';
 
 body {
   overflow-x: hidden;
