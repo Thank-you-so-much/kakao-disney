@@ -183,3 +183,54 @@
 .recent-conversations-list {
   margin-top: 15px;
 }
+
+.recent-conversations-list__item {
+  display: flex;
+}
+
+.recent-conversations-list__description {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.recent-conversations-list__text {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.3em;
+  color: var(--main-color);
+}
+
+.recent-conversations-list__text p {
+  margin-right: 17px;
+}
+
+.recent-conversations-list__subtext {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 15px;
+  font-size: 1.1em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.pagination-dots {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.pagination-dot {
+  width: 6px;
+  height: 6px;
+  margin: 0 3px;
+  display: inline-block;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pagination-dot:first-child {
+  background-color: var(--main-color);
+}
