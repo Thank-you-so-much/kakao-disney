@@ -35,7 +35,6 @@
 .user-component__avatar {
   border-radius: 35%;
   margin-right: 10px;
-  object-fit: 100%;
 }
 
 .user-component__avatar--xl {
