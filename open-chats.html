@@ -7,294 +7,329 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>Disney Service</span>
-        <i class="fas fa-wifi"></i>
+    <div class="wrap">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>Disney Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>22:15</span>
+        </div>
+        <div class="status-bar__column">
+          <span>50%</span>
+          <i class="fas fa-battery-half"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <span>22:15</span>
-      </div>
-      <div class="status-bar__column">
-        <span>50%</span>
-        <i class="fas fa-battery-half"></i>
-        <i class="fas fa-bolt"></i>
-      </div>
+      <div id="friends-background"></div>
+
+      <header class="friends-header">
+        <h1 class="friends-header__title">Open Chat</h1>
+        <div class="friends-header__icon">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-comment-medical fa-lg"></i></span>
+          <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+      </header>
+
+      <main class="main-screen">
+        <div class="keyword-space">
+          <div class="keyword__item">
+            <span><i class="fas fa-search"></i></span>
+            <span class="keyword__text">Search</span>
+          </div>
+
+          <div class="keyword__item">
+            <span><i class="far fa-comment-dots"></i></span>
+            <span class="keyword__text">My chat</span>
+          </div>
+
+          <div class="keyword__item">
+            <span><i class="fas fa-map-marker-alt"></i></span>
+            <span class="keyword__text">Location</span>
+          </div>
+
+          <div class="keyword__item">
+            <span><i class="fas fa-fire"></i></span>
+            <span class="keyword__text">Hot Now</span>
+          </div>
+
+          <div class="keyword__item">
+            <span><i class="fas fa-hashtag"></i></span>
+            <span class="keyword__text">Open Chat Life</span>
+          </div>
+        </div>
+
+        <section class="advertisement-area">
+          <img src="images/game.png" alt="" class="advertisement-img" />
+        </section>
+
+        <section class="chat-container open-chats__space">
+          <div class="chat-container__column">
+            <img src="images/disney-logo.png" alt="" class="user-component__avatar user-component__avatar--m" />
+            <div class="chat-container__info">
+              <div class="chat-container__header">
+                <h4 class="chat-container__title">Disney Lovers Club</h4>
+                <span class="chat-container__number">99</span>
+                <span><i class="fas fa-bell-slash"></i></span>
+              </div>
+              <p class="chat-container__subtitle">We love Disney ❤️!</p>
+            </div>
+          </div>
+
+          <div class="chat-container__column">
+            <span>14:22</span>
+            <span class="badge">99</span>
+          </div>
+        </section>
+        <div class="boundary"></div>
+
+        <section class="suggestion-space">
+          <h4 class="suggestion-space__title">Do you like Disney like us?☺️</h4>
+          <div class="suggestion-chat">
+            <div class="suggestion-chat__column">
+              <img src="images/channel1.png" alt="" class="user-component__avatar user-component__avatar--m" />
+              <div class="suggestion__description">
+                <h4>Disney Princesses Gathering</h4>
+                <p>#Disney #Princesses #Party #Movie #Rapunzel</p>
+                <span>133 people participating</span>
+                <span>30 minutes ago</span>
+              </div>
+            </div>
+            <div class="suggestion-chat__column">
+              <input type="submit" value="Join" />
+            </div>
+          </div>
+
+          <div class="suggestion-chat">
+            <div class="suggestion-chat__column">
+              <img src="images/wall.jpg" alt="" class="user-component__avatar user-component__avatar--m" />
+              <div class="suggestion__description">
+                <h4>Wall-E and Eve and Earth Exploration</h4>
+                <p>#Disney #Wall-E #EVA #Earth</p>
+                <span>11 people participating</span>
+                <span>3 minutes ago</span>
+              </div>
+            </div>
+            <div class="suggestion-chat__column">
+              <input type="submit" value="Join" />
+            </div>
+          </div>
+
+          <div class="suggestion-chat">
+            <div class="suggestion-chat__column">
+              <img src="images/winter.png" alt="" class="user-component__avatar user-component__avatar--m" />
+              <div class="suggestion__description">
+                <h4>Winter with Elsa</h4>
+                <p>#Disney #Elsa #Anna #Winter #Cold #Frozen</p>
+                <span>333 people participating</span>
+                <span>1 minutes ago</span>
+              </div>
+            </div>
+            <div class="suggestion-chat__column">
+              <input type="submit" value="Join" />
+            </div>
+          </div>
+
+          <div class="suggestion-chat">
+            <div class="suggestion-chat__column">
+              <img
+                src="images/a collection of Disney.jpg"
+                alt=""
+                class="user-component__avatar user-component__avatar--m"
+              />
+              <div class="suggestion__description">
+                <h4>Disney Classic Masterpiece</h4>
+                <p>#Disney #Snow White #Seven Dwarfs #Aladdin #Lion King</p>
+                <span>656 people participating</span>
+                <span>25 minutes ago</span>
+              </div>
+            </div>
+            <div class="suggestion-chat__column">
+              <input type="submit" value="Join" />
+            </div>
+          </div>
+        </section>
+
+        <div class="boundary thin"></div>
+        <section id="see-more">
+          <p>See More</p>
+          <span><i class="fas fa-chevron-right"></i></span>
+        </section>
+        <div class="boundary"></div>
+
+        <section class="recent-conversations">
+          <div class="recent-conversations__column">
+            <h4 class="recent-conversations__title">🔥A room full of conversation</h4>
+            <span><i class="fas fa-info-circle"></i></span>
+            <p class="recent-conversations__time">as of 7 a.m</p>
+          </div>
+
+          <div class="recent-conversations-list">
+            <div class="recent-conversations-list__item">
+              <img src="images/heart.jpg" alt="" class="user-component__avatar user-component__avatar--m" />
+
+              <div class="recent-conversations-list__description">
+                <div class="recent-conversations-list__text">
+                  <p>1</p>
+                  <h6>Love Counsel</h6>
+                </div>
+                <div class="recent-conversations-list__subtext">
+                  <h6>For Love</h6>
+                  <p class="recent-conversations__stats">2,460,239 Visit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="recent-conversations-list">
+            <div class="recent-conversations-list__item">
+              <img src="images/night.jpg" alt="" class="user-component__avatar user-component__avatar--m" />
+
+              <div class="recent-conversations-list__description">
+                <div class="recent-conversations-list__text">
+                  <p>2</p>
+                  <h6>Night Scene</h6>
+                </div>
+                <div class="recent-conversations-list__subtext">
+                  <h6>Good Night</h6>
+                  <p class="recent-conversations__stats">1,613,456 Visit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="recent-conversations-list">
+            <div class="recent-conversations-list__item">
+              <img src="images/duck.jpg" alt="" class="user-component__avatar user-component__avatar--m" />
+
+              <div class="recent-conversations-list__description">
+                <div class="recent-conversations-list__text">
+                  <p>3</p>
+                  <h6>The Painters</h6>
+                </div>
+                <div class="recent-conversations-list__subtext">
+                  <h6>Good Picture</h6>
+                  <p class="recent-conversations__stats">460,239 Visit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="pagination-dots">
+          <span class="pagination-dot active"></span>
+          <span class="pagination-dot"></span>
+          <span class="pagination-dot"></span>
+          <span class="pagination-dot"></span>
+          <span class="pagination-dot"></span>
+        </section>
+        <div class="boundary"></div>
+
+        <div class="chat-square">
+          <div class="chat-square__column">
+            <h4 class="chat-square__title">Yackety-Yak Square</h4>
+            <span><i class="fas fa-trophy"></i></span>
+          </div>
+
+          <div class="chat-square__box">
+            <div class="chat-square__content">
+              <h6 class="chat-square__box__title">CoCo OST</h6>
+              <span class="chat-square__box__text">Who wants to share Coco's OST ?</span>
+              <span class="chat-square__box__icon">😍 6</span>
+            </div>
+
+            <div class="chat-square__content">
+              <h6 class="chat-square__box__title">Disney Movies</h6>
+              <span class="chat-square__box__text"
+                >First time getting to know Disney this time, anyone want to recommend a movie?</span
+              >
+              <span class="chat-square__box__icon">🖐 2</span>
+            </div>
+          </div>
+          <div class="next-best">
+            <div class="next-best__container">
+              <span><i class="fas fa-redo-alt"></i></span>
+              <p>See The <span>Next</span> Best</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="boundary"></div>
+
+        <div class="same-age">
+          <h4>Room That Many People My Age Visit</h4>
+          <div class="same-age__content">
+            <div class="same-age__img__container">
+              <div class="same-age_img_wrapper">
+                <img src="images/people1.png" alt="" />
+                <div class="same-age__text__wrapper">
+                  <p>Let's Communicate Together!</p>
+                  <span>28 people</span>
+                  <span>30 minutes</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="same-age__img__container">
+              <div class="same-age_img_wrapper">
+                <img src="images/people2.png" alt="" />
+                <div class="same-age__text__wrapper">
+                  <p>Let's Communicate Together!</p>
+                  <span>28 people</span>
+                  <span>30 minutes</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="same-age__img__container">
+              <div class="same-age_img_wrapper">
+                <img src="images/people3.png" alt="" />
+                <div class="same-age__text__wrapper">
+                  <p>Let's Communicate Together!</p>
+                  <span>28 people</span>
+                  <span>30 minutes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__btn">
+            <a href="friends.html" class="nav__link">
+              <i class="far fa-user fa-lg"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a href="chat.html" class="nav__link">
+              <span class="nav__notification badge">1</span>
+              <i class="far fa-comment fa-lg"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a href="" class="nav__link">
+              <span class="nav__notification badge">99</span>
+              <i class="fas fa-comments fa-lg"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a href="" class="nav__link">
+              <i class="fas fa-shopping-bag fa-lg"></i>
+            </a>
+          </li>
+
+          <li class="nav__btn">
+            <a href="" class="nav__link">
+              <i class="fas fa-ellipsis-h fa-lg"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <div id="friends-background"></div>
-
-    <header class="friends-header">
-      <h1 class="friends-header__title">Open Chat</h1>
-      <div class="friends-header__icon">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-comment-medical fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
-      </div>
-    </header>
-
-    <main class="main-screen">
-      <div class="keyword-space">
-        <div class="keyword__item">
-          <span><i class="fas fa-search"></i></span>
-          <span class="keyword__text">Search</span>
-        </div>
-
-        <div class="keyword__item">
-          <span><i class="far fa-comment-dots"></i></span>
-          <span class="keyword__text">My chat</span>
-        </div>
-
-        <div class="keyword__item">
-          <span><i class="fas fa-map-marker-alt"></i></span>
-          <span class="keyword__text">Location</span>
-        </div>
-
-        <div class="keyword__item">
-          <span><i class="fas fa-fire"></i></span>
-          <span class="keyword__text">Hot Now</span>
-        </div>
-
-        <div class="keyword__item">
-          <span><i class="fas fa-hashtag"></i></span>
-          <span class="keyword__text">Open Chat Life</span>
-        </div>
-      </div>
-
-      <section class="advertisement-area">
-        <img src="images/game.png" alt="" class="advertisement-img" />
-      </section>
-
-      <section class="chat-container open-chats__space">
-        <div class="chat-container__column">
-          <img src="images/disney-logo.png" alt="" class="user-component__avatar user-component__avatar--m" />
-          <div class="chat-container__info">
-            <div class="chat-container__header">
-              <h4 class="chat-container__title">Disney Lovers Club</h4>
-              <span class="chat-container__number">99</span>
-              <span><i class="fas fa-bell-slash"></i></span>
-            </div>
-            <p class="chat-container__subtitle">We love Disney ❤️!</p>
-          </div>
-        </div>
-
-        <div class="chat-container__column">
-          <span>14:22</span>
-          <span class="badge">99</span>
-        </div>
-      </section>
-      <div class="boundary"></div>
-
-      <section class="suggestion-space">
-        <h4 class="suggestion-space__title">Do you like Disney like us?☺️</h4>
-        <div class="suggestion-chat">
-          <div class="suggestion-chat__column">
-            <img src="images/channel1.png" alt="" class="user-component__avatar user-component__avatar--m" />
-            <div class="suggestion__description">
-              <h4>Disney Princesses Gathering</h4>
-              <p>#Disney #Princesses #Party #Movie #Rapunzel</p>
-              <span>133 people participating</span>
-              <span>30 minutes ago</span>
-            </div>
-          </div>
-          <div class="suggestion-chat__column">
-            <input type="submit" value="Join" />
-          </div>
-        </div>
-
-        <div class="suggestion-chat">
-          <div class="suggestion-chat__column">
-            <img src="images/wall.jpg" alt="" class="user-component__avatar user-component__avatar--m" />
-            <div class="suggestion__description">
-              <h4>Wall-E and Eve and Earth Exploration</h4>
-              <p>#Disney #Wall-E #EVA #Earth</p>
-              <span>11 people participating</span>
-              <span>3 minutes ago</span>
-            </div>
-          </div>
-          <div class="suggestion-chat__column">
-            <input type="submit" value="Join" />
-          </div>
-        </div>
-
-        <div class="suggestion-chat">
-          <div class="suggestion-chat__column">
-            <img src="images/winter.png" alt="" class="user-component__avatar user-component__avatar--m" />
-            <div class="suggestion__description">
-              <h4>Winter with Elsa</h4>
-              <p>#Disney #Elsa #Anna #Winter #Cold #Frozen</p>
-              <span>333 people participating</span>
-              <span>1 minutes ago</span>
-            </div>
-          </div>
-          <div class="suggestion-chat__column">
-            <input type="submit" value="Join" />
-          </div>
-        </div>
-
-        <div class="suggestion-chat">
-          <div class="suggestion-chat__column">
-            <img
-              src="images/a collection of Disney.jpg"
-              alt=""
-              class="user-component__avatar user-component__avatar--m"
-            />
-            <div class="suggestion__description">
-              <h4>Disney Classic Masterpiece</h4>
-              <p>#Disney #Snow White #Seven Dwarfs #Aladdin #Lion King</p>
-              <span>656 people participating</span>
-              <span>25 minutes ago</span>
-            </div>
-          </div>
-          <div class="suggestion-chat__column">
-            <input type="submit" value="Join" />
-          </div>
-        </div>
-      </section>
-
-      <div class="boundary thin"></div>
-      <section id="see-more">
-        <p>See More</p>
-        <span><i class="fas fa-chevron-right"></i></span>
-      </section>
-      <div class="boundary"></div>
-
-      <section class="recent-conversations">
-        <div class="recent-conversations__column">
-          <h4 class="recent-conversations__title">🔥A room full of conversation</h4>
-          <span><i class="fas fa-info-circle"></i></span>
-          <p class="recent-conversations__time">as of 7 a.m</p>
-        </div>
-
-        <div class="recent-conversations-list">
-          <div class="recent-conversations-list__item">
-            <img src="images/heart.jpg" alt="" class="user-component__avatar user-component__avatar--m" />
-
-            <div class="recent-conversations-list__description">
-              <div class="recent-conversations-list__text">
-                <p>1</p>
-                <h6>Love Counsel</h6>
-              </div>
-              <div class="recent-conversations-list__subtext">
-                <h6>For Love</h6>
-                <p class="recent-conversations__stats">2,460,239 Visit</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="recent-conversations-list">
-          <div class="recent-conversations-list__item">
-            <img src="images/night.jpg" alt="" class="user-component__avatar user-component__avatar--m" />
-
-            <div class="recent-conversations-list__description">
-              <div class="recent-conversations-list__text">
-                <p>2</p>
-                <h6>Night Scene</h6>
-              </div>
-              <div class="recent-conversations-list__subtext">
-                <h6>Good Night</h6>
-                <p class="recent-conversations__stats">1,613,456 Visit</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="recent-conversations-list">
-          <div class="recent-conversations-list__item">
-            <img src="images/duck.jpg" alt="" class="user-component__avatar user-component__avatar--m" />
-
-            <div class="recent-conversations-list__description">
-              <div class="recent-conversations-list__text">
-                <p>3</p>
-                <h6>The Painters</h6>
-              </div>
-              <div class="recent-conversations-list__subtext">
-                <h6>Good Picture</h6>
-                <p class="recent-conversations__stats">460,239 Visit</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="pagination-dots">
-        <span class="pagination-dot active"></span>
-        <span class="pagination-dot"></span>
-        <span class="pagination-dot"></span>
-        <span class="pagination-dot"></span>
-        <span class="pagination-dot"></span>
-      </section>
-      <!-- 나중에 js로 슬라이드 구현하기 -->
-      <div class="boundary"></div>
-
-      <div class="chat-square">
-        <div class="chat-square__column">
-          <h4 class="chat-square__title">Yackety-Yak Square</h4>
-          <span><i class="fas fa-trophy"></i></span>
-        </div>
-
-        <div class="chat-square__box">
-          <div class="chat-square__content">
-            <h6 class="chat-square__box__title">CoCo OST</h6>
-            <span class="chat-square__box__text">Who wants to share Coco's OST ?</span>
-            <span class="chat-square__box__icon">😍 6</span>
-          </div>
-
-          <div class="chat-square__content">
-            <h6 class="chat-square__box__title">Disney Movies</h6>
-            <span class="chat-square__box__text"
-              >First time getting to know Disney this time, anyone want to recommend a movie?</span
-            >
-            <span class="chat-square__box__icon">🖐 2</span>
-          </div>
-        </div>
-        <div class="next-best">
-          <div class="next-best__container">
-            <span><i class="fas fa-redo-alt"></i></span>
-            <p>See The <span>Next</span> Best</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="boundary"></div>
-
-      <div class="same-age">
-        <h4>Room That Many People My Age Visit</h4>
-      </div>
-    </main>
-
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a href="friends.html" class="nav__link">
-            <i class="far fa-user fa-lg"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a href="chat.html" class="nav__link">
-            <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-lg"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a href="" class="nav__link">
-            <span class="nav__notification badge">99</span>
-            <i class="fas fa-comments fa-lg"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a href="" class="nav__link">
-            <i class="fas fa-shopping-bag fa-lg"></i>
-          </a>
-        </li>
-
-        <li class="nav__btn">
-          <a href="" class="nav__link">
-            <i class="fas fa-ellipsis-h fa-lg"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
 
     <script src="https://kit.fontawesome.com/7061e94a18.js" crossorigin="anonymous"></script>
   </body>

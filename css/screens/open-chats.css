@@ -1,3 +1,7 @@
+.wrap {
+  height: 1100vh;
+}
+
 .keyword-space {
   display: flex;
   overflow-x: auto;
@@ -328,4 +332,40 @@
 .same-age h4 {
   font-size: 1.3em;
   color: var(--main-color);
+}
+
+.same-age__content {
+  display: flex;
+}
+
+.same-age__img__container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.same-age_img_wrapper {
+  position: relative;
+}
+
+.same-age_img_wrapper img {
+  width: 130px;
+  height: 190px;
+  border-radius: 20px;
+}
+
+.same-age__text__wrapper {
+  width: 100px;
+  position: absolute;
+  bottom: 7px;
+  transform: translateX(10%);
+  padding: 5px 0;
+  color: white;
+  box-sizing: border-box;
+}
+
+.same-age__text__wrapper span {
+  font-size: 0.8em;
+  opacity: 0.8;
 }
