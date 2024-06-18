@@ -326,11 +326,11 @@
 }
 
 .same-age {
-  margin-top: 10px;
+  margin: 10px 0 15px 0;
 }
 
 .same-age h4 {
-  font-size: 1.3em;
+  font-size: 1.5em;
   color: var(--main-color);
 }
 
@@ -362,10 +362,20 @@
   transform: translateX(10%);
   padding: 5px 0;
   color: white;
+  text-shadow: 1px 1px 2px #000000, 2px 2px 5px #555555, 3px 3px 8px rgba(0, 0, 0, 0.3), 4px 4px 10px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
 }
 
 .same-age__text__wrapper span {
   font-size: 0.8em;
   opacity: 0.8;
+}
+
+.for-me {
+  margin-top: 10px;
+}
+
+.for-me__title {
+  font-size: 1.5em;
+  color: var(--main-color);
 }
