@@ -424,3 +424,138 @@
 .for-me__container__content p > i {
   margin-right: 3px;
 }
+
+.movie-mbti {
+  margin: 10px 0 10px 0;
+}
+
+.movie-mbti h4 {
+  font-size: 1.5em;
+  color: var(--main-color);
+}
+
+.movie-mbti__container {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid none;
+  border-radius: 15px;
+  background-color: #003366;
+}
+
+.movie-mbti__container__column {
+  display: flex;
+  align-items: center;
+}
+
+.movie-mbti__container__column img {
+  width: 50px;
+  height: 50px;
+  margin-right: 8px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.movie-mbti__container__text h6 {
+  margin-bottom: 5px;
+  font-size: 1.25em;
+  color: wheat;
+}
+.movie-mbti__container__text span {
+  color: violet;
+}
+
+.movie-mbti__container__text span:last-child {
+  margin-left: 5px;
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.movie-mbti__container__chat {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid none;
+  border-radius: 10px;
+  background-color: #14477a;
+}
+
+.movie-mbti__container__chat p {
+  font-size: 1.1em;
+}
+
+.movie-mbti__container__chat p:first-child {
+  margin-right: 7px;
+  color: white;
+  opacity: 0.5;
+}
+
+.movie-mbti__container__chat p:last-child {
+  color: white;
+}
+
+.chat-lite {
+  margin-top: 10px;
+}
+
+.chat-lite h4 {
+  font-size: 1.5em;
+  color: var(--main-color);
+}
+
+.lite-background {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.lite-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url('/images/study.png') center/cover no-repeat;
+  opacity: 0.8;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.chat-lite__column {
+  padding: 10px 20px;
+}
+.chat-lite__column:last-child {
+  margin-left: auto;
+  align-items: center;
+}
+
+.chat-lite__column:last-child p {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  padding: 6px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.chat-lite__column:last-child p:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.chat-lite__column__title {
+  font-size: 1.3em;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.chat-lite__column p {
+  color: rgba(0, 0, 0, 0.7);
+}
