@@ -379,3 +379,22 @@
   font-size: 1.5em;
   color: var(--main-color);
 }
+
+.for-me__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.for-me__container__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.for-me__container__content p {
+  margin-right: 5px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 4px 6px;
+  margin-bottom: 8px;
+}
