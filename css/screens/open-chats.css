@@ -372,7 +372,7 @@
 }
 
 .for-me {
-  margin-top: 10px;
+  margin: 10px 0 10px 0;
 }
 
 .for-me__title {
@@ -382,12 +382,13 @@
 
 .for-me__container {
   display: flex;
-  flex-direction: column;
   margin-top: 10px;
 }
 
 .for-me__container__content {
+  max-width: 310px;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -397,4 +398,29 @@
   border-radius: 15px;
   padding: 4px 6px;
   margin-bottom: 8px;
+  background-color: #003366;
+  color: white;
+}
+
+.for-me__container__content p:hover {
+  background-color: pink;
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+
+.for-me__container__content p:last-child {
+  background-color: black;
+  color: white;
+}
+
+.for-me__container__content p:last-child:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-color: black;
+}
+
+.for-me__container__content p > i {
+  margin-right: 3px;
 }
