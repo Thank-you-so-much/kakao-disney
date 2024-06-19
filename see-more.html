@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kakao-Disney</title>
+    <title>See More</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -24,18 +24,37 @@
     </div>
     <div id="login-background"></div>
 
-    <header class="header">
-      <h1 class="header__title">Welcome to Disney Talk!</h1>
-      <p class="header__text">If you have an Account, log in with your email or phone number.</p>
+    <header class="friends-header">
+      <h1 class="friends-header__title">See More</h1>
+      <div class="friends-header__icon">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-qrcode fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
     </header>
 
-    <form class="login-form">
-      <input type="text" required placeholder="ID" />
-      <input type="password" required placeholder="Password" minlength="10" />
-      <input type="submit" value="Log in" />
+    <main class="main-screen">
+      <div class="wallet-container">
+        <div class="wallet-column">
+          <h4>Wallet</h4>
+          <span><i class="fas fa-chevron-right"></i></span>
+          <div class="wallet-column__text">
+            <span><i class="fas fa-portrait"></i></span>
+            <p>Student Card</p>
+            <span><i class="fas fa-shield-alt"></i></span>
+            <p>Certification</p>
+          </div>
+        </div>
 
-      <a href="#" class="find">Find your Account or Password</a>
-    </form>
+        <div class="wallet-banner">
+          <div class="wallet-banner__left">
+            <span><i class="fas fa-tv"></i></span>
+            <p>Disney TV's Hidden Special Price</p>
+          </div>
+          <span><i class="fas fa-chevron-right"></i></span>
+        </div>
+      </div>
+    </main>
 
     <script src="https://kit.fontawesome.com/7061e94a18.js" crossorigin="anonymous"></script>
   </body>
