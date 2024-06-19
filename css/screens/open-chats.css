@@ -500,6 +500,7 @@
 
 .chat-lite {
   margin-top: 10px;
+  border-bottom: var(--main-border);
 }
 
 .chat-lite h4 {
@@ -524,6 +525,31 @@
   width: 100%;
   height: 100px;
   background: url('/images/study.png') center/cover no-repeat;
+  opacity: 0.8;
+  border-radius: 20px;
+  z-index: -1;
+}
+.lite-background:nth-of-type(2)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url('/images/console.png') center/cover no-repeat;
+  opacity: 0.8;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.lite-background:nth-of-type(3)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url('/images/cube.png') center/cover no-repeat;
   opacity: 0.8;
   border-radius: 20px;
   z-index: -1;
