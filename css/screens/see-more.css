@@ -2,6 +2,7 @@
   height: 160px;
   background-color: #ffeb3b;
   padding: 20px;
+  margin-top: -20px;
 }
 
 .wallet-column:first-child {
@@ -74,19 +75,19 @@
 }
 
 .pay i {
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin-right: 5px;
   line-height: 1.2em;
 }
 
 .pay p:first-of-type {
-  font-size: 1.2em;
+  font-size: 1.1em;
   /* transform: translateY(-4px); */
 }
 
 .pay p:last-child {
   margin-left: auto;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .wallet-finance {
@@ -117,4 +118,31 @@
 
 .order p:last-of-type {
   padding: 0;
+}
+
+.icon-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 calc(25% - 20px);
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.icon-box span > i {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.icon-box p {
+  font-size: 1.2em;
+  color: var(--main-color);
 }
