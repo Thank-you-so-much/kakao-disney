@@ -1,5 +1,5 @@
 .wallet-container {
-  height: 170px;
+  height: 160px;
   background-color: #ffeb3b;
   padding: 20px;
 }
@@ -10,13 +10,17 @@
 }
 
 .wallet-column:first-child span > i {
-  margin-left: 3px;
-  font-size: 1.1em;
+  margin-left: 5px;
   color: rgba(0, 0, 0, 0.8);
 }
 
+.wallet-column > span > i.fas.fa-chevron-right {
+  font-size: 1.3em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .wallet-column h4 {
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
 .wallet-column__text {
@@ -62,4 +66,55 @@
 
 .wallet-banner p {
   font-size: 1.3em;
+}
+
+.pay {
+  display: flex;
+  margin: 15px 10px;
+}
+
+.pay i {
+  font-size: 1.2em;
+  margin-right: 5px;
+  line-height: 1.2em;
+}
+
+.pay p:first-of-type {
+  font-size: 1.2em;
+  /* transform: translateY(-4px); */
+}
+
+.pay p:last-child {
+  margin-left: auto;
+  font-size: 1.2em;
+}
+
+.wallet-finance {
+  display: flex;
+  align-items: center;
+}
+
+.wallet-finance p {
+  height: 1px;
+  display: flex;
+  align-items: center;
+  padding: 11px;
+}
+
+.wallet-finance p:not(:last-of-type) {
+  border-right: 1px solid rgba(0, 0, 0, 0.1); /* 세로 경계선 */
+}
+
+.order {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.order span > i {
+  margin-right: 5px;
+}
+
+.order p:last-of-type {
+  padding: 0;
 }
