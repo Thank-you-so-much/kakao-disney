@@ -622,7 +622,6 @@
 }
 
 .pop-now p {
-  border: 1px solid black;
   padding: 5px 7px;
   border-radius: 5px;
   background-color: #003366;
@@ -633,5 +632,4 @@
   background-color: pink;
   color: white;
   cursor: pointer;
-  border: none;
 }

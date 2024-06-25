@@ -20,6 +20,7 @@
 @import './screens/friends-list.css';
 @import './screens/open-chats.css';
 @import './screens/see-more.css';
+@import './screens/chat.css';
 
 body {
   overflow-x: hidden;
