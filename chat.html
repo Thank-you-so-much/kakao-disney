@@ -6,7 +6,7 @@
     <title>Chat With - Calc</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>Disney Service</span>
@@ -21,24 +21,29 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <div id="friends-background"></div>
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <i><i class="fas fa-angle-left fa-2x"></i></i>
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
       </div>
 
       <div class="alt-header__column">
-        <h1 class="alt-header__title">Carl Frederickson</h1>
+        <h1 class="alt-header__title">Amber</h1>
       </div>
 
       <div class="alt-header__column">
-        <span><i class="fas fa-search"></i></span>
-        <span> <i class="fas fa-bars"></i></span>
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span> <i class="fas fa-bars fa-lg"></i></span>
       </div>
     </header>
 
-    <main class="main-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="chat-timestamp">
+        <h4>Tuesday, June 25, 2024</h4>
+      </div>
+    </main>
 
     <script src="https://kit.fontawesome.com/7061e94a18.js" crossorigin="anonymous"></script>
   </body>
