@@ -75,6 +75,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  animation: hideSplashScreen 0.4s ease-in-out forwards;
-  animation-delay: 1s;
+  animation: hideSplashScreen 0.9s ease-in-out forwards;
+  /* animation-delay: 0.7s; */
 }

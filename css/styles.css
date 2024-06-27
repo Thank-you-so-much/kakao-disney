@@ -9,6 +9,7 @@
 @import './components/advertisement.css';
 @import './components/badge.css';
 @import './components/chats-components.css';
+@import './components/no-mobile.css';
 
 /*Screens*/
 @import './screens/login.css';

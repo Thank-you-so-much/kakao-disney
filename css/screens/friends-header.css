@@ -1,24 +1,38 @@
 .friends-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: var(--main-space);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--main-space);
 }
 
 .friends-header__title {
-	color: var(--main-color);
-	font-size: 2.2rem;
+  color: var(--main-color);
+  font-size: 2.2rem;
 }
 
 .friends-header__icon span {
-	margin-right: 15px;
-	color: var(--main-color);
+  margin-right: 15px;
+  color: var(--main-color);
 }
 
 .friends-header__icon span:last-child {
-	margin-right: 0;
+  margin-right: 0;
 }
 
 .friends-screen {
-	padding: 0 var(--main-space);
+  padding: 0 var(--main-space);
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.friends-header__icon .fa-cog:hover {
+  animation: rotateCog 2s linear infinite;
+  cursor: pointer;
 }

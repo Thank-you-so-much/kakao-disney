@@ -301,6 +301,27 @@
   margin-top: auto;
 }
 
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scaleY(3);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.chat-square__box .chat-square__box__icon:hover {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+  cursor: pointer;
+}
+
 .next-best {
   display: flex;
   justify-content: center;
