@@ -1,56 +1,80 @@
 .friends-list-space {
-	margin-top: 20px;
-	border-top: var(--main-border);
+  margin-top: 20px;
+  border-top: var(--main-border);
 }
 
 .friends-list-space__column {
-	display: flex;
-	align-items: center;
-	margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .friends-list-space__column:first-child {
-	display: flex;
-	justify-content: space-between;
-	font-size: 1.2em;
-	margin-top: 10px;
-	color: var(--main-color);
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: var(--main-color);
 }
 
 .friends-list-space__column img {
-	width: 50px;
-	height: 50px;
-	margin-right: 15px;
-	object-fit: cover;
-	border-radius: 40%;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  object-fit: cover;
+  border-radius: 40%;
 }
 
 .friends-list-space__column__description {
-	color: var(--main-color);
+  color: var(--main-color);
 }
 
 .profile-music {
-	display: flex;
-	align-items: center;
-	margin-left: auto;
-	border: 1px solid tomato;
-	padding: 4px 5px;
-	border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  border: 1px solid tomato;
+  padding: 4px 5px;
+  border-radius: 20px;
 }
 
 .profile-music__name,
 .profile-music__singer {
-	font-size: 0.9em;
-	color: var(--main-color);
+  font-size: 0.9em;
+  color: var(--main-color);
 }
 
 .profile-music__singer {
-	margin-left: 2px;
+  margin-left: 2px;
 }
 
 .profile-music i {
-	display: block;
-	align-items: center;
-	font-size: 0.3em;
-	margin-left: 4px;
+  display: block;
+  align-items: center;
+  font-size: 0.3em;
+  margin-left: 4px;
+}
+
+@keyframes hideSplashScreen {
+  form {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen::before {
+  content: '';
+  background-image: url('/images/disney-up3.jpg');
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 180vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 1s;
 }
